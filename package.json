@@ -1,12 +1,15 @@
 {
-  "name": "youtube-remote",
-  "version": "1.0.0",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "ws": "^7.3.0"
-  }
+	"name": "youtube-remote",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "nodemon index.js"
+	},
+	"main": "index.js",
+	"license": "MIT",
+	"dependencies": {
+		"ws": "^7.3.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
 }
