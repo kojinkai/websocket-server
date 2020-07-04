@@ -2,7 +2,7 @@ const url = 'ws://localhost:PORT';
 const connection = new WebSocket(url);
 
 connection.onmessage = ({ data }) => {
-	const skipButton = document.querySelector('.tp-ad-skip-button');
+	const skipButton = document.querySelector('.ytp-ad-skip-button-container button');
 	if (skipButton) {
 		skipButton.click();
 		return;
